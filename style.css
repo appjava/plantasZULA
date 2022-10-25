@@ -1,0 +1,119 @@
+html h1,h2,h3,h4,h5,h6,div,p,body,header,nav,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Verdana;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: block;
+    background: white;
+    height: 66px;
+    width: 100%;
+}
+header h1{
+    color: black;
+}
+header #logo{
+    position: absolute;
+    top: 9px;
+    left: 24px;
+}
+#logo img{
+    width: 200px;
+    height: 48px;
+}
+header #basket{
+    position: absolute;
+    top: 9px;
+    right: 24px;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background: rgb(37, 37, 37);
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+}
+nav span{
+    color: white;
+}
+nav ul{
+    padding-top: 15px;
+}
+nav li{
+    display: inline-flex;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+nav .current {
+    text-decoration:overline;
+}
+footer {
+    display: block;
+    text-align: center;
+    background: rgb(238, 237, 237);
+    height: 90px;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+footer li{
+    display: inline-flex;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: black;
+}
+footer h4{
+    color: black;
+}
+main{
+    padding: 12px;
+    width: 84%;
+    margin: auto;
+    border: none 1px gray;
+}
+main #title{
+    padding-top: 15px;
+    height: 30px;
+    border-top: none 1px gray;
+    border-bottom: none 1px gray;
+    background: rgb(238, 237, 237);
+    text-align: center;
+}
+main #content{
+    display: inline-flex;
+    margin-top: 30px;
+    border: none 1px red;
+    width: 100%;
+}
+main section{
+    margin: auto;
+    padding: 12px;
+    display: block;
+    border: none 1px gray;
+    background: none;
+}
+main img{
+    background: pink;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 12px;
+}
+main input{
+    width: 48%;
+    margin-top: 12px;
+    background: rgb(37, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
